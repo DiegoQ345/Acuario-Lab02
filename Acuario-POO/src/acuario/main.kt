@@ -3,9 +3,10 @@ import Acuario.Acuario
 
 fun construirAcuario() {
 
-
-    val acuario1 = Acuario(alto = 31)
-    acuario1.imprimirTamano()
+    val acuario7 = Acuario(numeroDePeces = 29)
+    acuario7.imprimirTamano()
+    acuario7.volumen = 70
+    acuario7.imprimirTamano()
 
 }
 
