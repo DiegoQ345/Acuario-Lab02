@@ -5,3 +5,10 @@ class Acuario {
     var alto: Int = 40
     var largo: Int = 100
 }
+
+
+fun imprimirTamano() {
+    println("Ancho: $ancho cm " +
+            "Largo: $largo cm " +
+            "Alto: $alto cm ")
+}
